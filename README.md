@@ -5,4 +5,4 @@ Simple circle vs circle collision simulation with C++ SFML.
 <h1>How does it look?</h1>
 <br>
 
-![screen-gif](./myScreen.gif)
+![gif](./circlevscircle_gif.gif)
