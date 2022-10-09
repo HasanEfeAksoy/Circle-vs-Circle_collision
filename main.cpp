@@ -103,11 +103,7 @@ int main()
                         double circleSubX = circle->get_position()->x - (collideIn * (circle->get_position()->x - otherCircle->get_position()->x) / distance);
                         double circleSubY = circle->get_position()->y - (collideIn * (circle->get_position()->y - otherCircle->get_position()->y) / distance);
                         circle->set_position(sf::Vector2f(circleSubX, circleSubY));
-
-                        double otherCircleAddX = otherCircle->get_position()->x + (collideIn * (circle->get_position()->x - otherCircle->get_position()->x) / distance);
-                        double otherCircleAddY = otherCircle->get_position()->y + (collideIn * (circle->get_position()->y - otherCircle->get_position()->y) / distance);
-                        circle->set_position(sf::Vector2f(circleSubX, circleSubY));
-                    }
+		    }
                 }
             }
         }
