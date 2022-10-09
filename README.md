@@ -1,8 +1,8 @@
 # Circle-vs-Circle_collision
-Simple circle vs circle collision simulation with C++ SFML.
+Simple circle vs circle collision simulation with C++.
 <br>
 <br>
-<h1>How does it look?</h1>
+<h1>How does it look in SFML?</h1>
 <br>
 
 ![gif](./circlevscircle_gif.gif)
