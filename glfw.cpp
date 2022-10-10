@@ -37,8 +37,6 @@ public:
     double y = 0.0;
     double radius = 0.1f;
 
-    double velocity = 0.0;
-
 
     Circle(double x, double y, double radius) {
         this->x = x;
@@ -66,7 +64,6 @@ public:
             this->y = -1.0 + this->radius;
         }
         else if (this->y + this->radius >= 1.0) {
-            this->velocity = 0.0;
             this->y = 1.0 - this->radius;
         }
 
